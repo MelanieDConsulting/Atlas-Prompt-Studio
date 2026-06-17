@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Inter:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-atlas-bg: #F5F0E8;
+  --color-atlas-surface: #FFFFFF;
+  --color-atlas-surface2: #F0EBE1;
+  --color-atlas-navy: #293140;
+  --color-atlas-navy2: #1e2535;
+  --color-atlas-slate: #434D59;
+  --color-atlas-grey: #9F9E9F;
+  --color-atlas-sand: #E1D9CC;
+  --color-atlas-taupe: #D6D0C7;
+  --color-atlas-brown: #9E8A78;
+  --color-atlas-gold: #C9A84C;
+  --color-atlas-border: #E8E3DA;
+  --color-atlas-border2: #D6D0C7;
+}
+
+body {
+  background-color: var(--color-atlas-bg);
+  color: var(--color-atlas-navy);
+  font-family: var(--font-sans);
+}
+
+.font-serif-accent {
+  font-family: var(--font-serif);
+}
+
+/* Scrollbars matching the brand */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-atlas-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-atlas-taupe);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-atlas-brown);
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Atlas Prompt Studio",
+  "description": "High-fidelity, layered photorealistic prompt builder and standalone image generator powered by Imagen 3, utilizing the premium ATLAS design system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
